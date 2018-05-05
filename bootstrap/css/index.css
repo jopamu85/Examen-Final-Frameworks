@@ -2,6 +2,7 @@
   background: rgb(96, 32, 96);
 }
 .encabezado {
+  border-radius: 5px;
   background: white;
   padding: 2px;
   margin: 2px;
@@ -18,26 +19,29 @@
 .logo {
   max-height: 150px;
 }
-.redes {
-  height: 60px;
-  align-items: baseline;
-}
 .navegador {
-  background: white;
+  background: #9643d6;
+  color: white;
   border-top: 0px;
 }
 
 .contenido {
   background: white;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 .cont-imagen {
   padding: 0;
   align-items: center;
   text-align: center;
 }
-.img-cont {
-  width: 100%
+.comment {
+  align-items: center;
+  font-size: 7rem;
 }
-div {
-  border: 1px solid black;
+.buscador {
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  background: rgb(240, 240, 240);
 }
