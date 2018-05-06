@@ -7,26 +7,165 @@
     <title>Blog de Gastronomía</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.svg">
   </head>
   <body class="cuerpo">
-    <div class="row">
-      <div class="columns small-4">
-        <div class="colums small-12">
-          <h1>Cocinando</h1>
+    <!-- NOTE: Encabezado sin imagen -->
+    <div class="row column encabezado">
+      <div class="row">
+        <div class="columns small-12 medium-4 titulo">
+          <div class="colums small-12">
+            <h1>Cocinando</h1>
+          </div>
+          <div class="columns small-12 text-right">
+            <p><i>El blog de los artistas de la<br>
+            <i>Gastronomía</i></p>
+          </div>
         </div>
-        <div class="columns small-12 text-right">
-          <p><i>El blog de los artistas de la<br>
-          <i>Gastronomía</i></p>
+        <div class="columns"></div>
+      </div>
+      <hr>
+      <!-- NOTE: Contenido de la barra lateral -->
+      <div class="row">
+        <div class="columns small-4 hide-for-small-only navegador">
+          <div class="row columns">
+            <div class="input-group">
+              <span class="input-group-label"><i class="fi-magnifying-glass"></i></span>
+              <input class="input-group-field" type="text" placeholder="Buscar">
+            </div>
+            <div class="stacked button-group">
+              <a class="button secondary" href="#">Inicio</a>
+              <a class="button secondary" href="#">Mi plato preferido</a>
+              <a class="button secondary" href="#">Mis recetas</a>
+            </div>
+            <div class="row">
+            <div class="columns small-12">
+              <h4>Favoritos:</h4>
+            </div>
+              <div class="columns small-4">
+                <img class="thumbnail" src="img/hamburguesa.jpg" alt="favoritos">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail" src="img/pescado.jpg" alt="favoritos">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail" src="img/pizza.jpg" alt="favoritos">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail" src="img/ramen.jpg" alt="favoritos">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail" src="img/sushi.jpg" alt="favoritos">
+              </div>
+              <div class="columns small-4">
+                <img class="thumbnail" src="img/verduras.jpg" alt="favoritos">
+              </div>
+            </div>
+            <div class="row">
+              <div class="columns small-12">
+                <h4>Historial:</h4>
+              </div>
+              <ul class="vertical menu">
+                <li><a href="#">Ensalada de verano</a></li>
+                <li><a href="#">Coctél de camarones</a></li>
+                <li><a href="#">Spaghetti a la marinara</a></li>
+                <li><a href="#">Chuleta de cerdo rellena</a></li>
+                <li><a href="#">Pescado en salsa de curry</a></li>
+                <li><a href="#">Hamburguesas a la parrilla</a></li>
+                <li><a href="#">Pizza artesanal</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- NOTE: Columna de publicaciones y comentarios -->
+        <div class="columns">
+          <div class="row columns publicaciones">
+            <div class="columns small-12">
+              <section>
+                <div class="columns small-12">
+                  <h3>Cupcake de brownie con crema de fresa</h3>
+                  <p class="fecha-pub"><i>Fecha de entrada: 6/5/18</i></p>
+                </div>
+                <div class="columns small-12">
+                  <img class="thumbnail" src="img/cupcake.jpg" alt="recetas">
+                </div>
+                <div class="columns small-12">
+                  <p>Delicioso Cupcake preparado en base de la receta para Brownies, de preparación sencilla y complejidad intermedia.<br>Disfrute de esta deliciosa receta que es tanto económica como rápida en su preparación, además que puede ser hecha por cualquier persona, con cualquier conocimiento en el campo culinario. </p>
+                </div>
+              </section>
+              <hr>
+                <div class="columns small-12">
+                  <label>
+                    Escriba un comentario:
+                    <textarea></textarea>
+                    <a class="button small float-right" href="#"><i class="fi-pencil"></i>Publicar</a>
+                  </label>
+              <hr>
+              <div class="row comentarios">
+                <div class="columns small-2">
+                  <img src="img/avatarh1.png" alt="avatar">
+                </div>
+                <div class="columns small-10">
+                  <p><strong>Metalero08:</strong>Excelente receta, demasiado rápida de preparar y el resultado es exquisito, además que es demasiado fácil para preparar. </p>
+                </div>
+              </div>
+              <div class="row comentarios">
+                <div class="columns small-2">
+                  <img src="img/avatarm1.png" alt="avatar">
+                </div>
+                <div class="columns small-10">
+                  <p><strong>Girly01:</strong>Por más que lo intente no pude hacerla, soy un desastre. </p>
+                </div>
+              </div>
+              </div>
+              <hr>
+              <!-- NOTE: Segunda publicacion -->
+              <section>
+                <div class="columns small-12">
+                  <h3>Pizza las 4 estaciones</h3>
+                  <p class="fecha-pub"><i>Fecha de entrada: 6/4/18</i></p>
+                </div>
+                <div class="columns small-12">
+                  <img class="thumbnail" src="img/pizza2.jpg" alt="recetas">
+                </div>
+                <div class="columns small-12">
+                  <p>Si no sabes que sabor de pizza escoger para comer, te presentamos esta exquisita presentación con 4 sabores distintos.<br>Disfrute de lo mejor de la pizza hawainana, suprema, jamon y hongos y margarita en una sola pizza. </p>
+                </div>
+              </section>
+              <hr>
+                <div class="columns small-12">
+                  <label>
+                    Escriba un comentario:
+                    <textarea></textarea>
+                    <a class="button small float-right" href="#"><i class="fi-pencil"></i>Publicar</a>
+                  </label>
+              <hr>
+              <div class="row comentarios">
+                <div class="columns small-2">
+                  <img src="img/avatarh2.png" alt="avatar">
+                </div>
+                <div class="columns small-10">
+                  <p><strong>Groupie11:</strong>Justo lo que necesitaba para mi fiesta de fin de semana, mas que recomendada esta receta. </p>
+                </div>
+              </div>
+              <div class="row comentarios">
+                <div class="columns small-2">
+                  <img src="img/avatarm2.png" alt="avatar">
+                </div>
+                <div class="columns small-10">
+                  <p><strong>Nela85:</strong>Si deseo cambiar alguno de los ingredientes por ingredientes Gluten Free se podra hacer?. </p>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            </div>
+
         </div>
       </div>
+    </div>
 
-      <div class="columns"></div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="columns small-4"></div>
-      <div class="columns"></div>
-    </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>

@@ -1,6 +1,38 @@
 .cuerpo {
-  background: purple;
+  background: url(../img/cocina.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
 }
-div {
-  border: 1px solid black;
+.encabezado {
+  background: rgba(102, 102, 204, 0.8)
+}
+.titulo {
+  border-right: 1px solid white;
+}
+.navegador {
+  padding-top: 15px;
+  background: rgb(204, 204, 255);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.publicaciones {
+  padding-top: 15px;
+  background: rgb(179, 204, 255);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.fecha-pub {
+  color: #0055ff;
+  font-family: cursive;
+}
+.comentarios {
+  border: 1px solid #8c8c8c;
+  border-radius: 10px;
 }
