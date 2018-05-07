@@ -1,0 +1,13 @@
+.fondo {
+  background-color: #2F0571;
+  background: url(../img/travel.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+}
+
+
+.logo {
+  border-radius: 5px;
+}
