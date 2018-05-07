@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="css/index.css">
     <title>Blog de Turismo</title>
   </head>
+  <!-- NOTE: Area de navegador, Logo y Slogan -->
   <body class="fondo">
-    <div class="row">
+    <div class="row img-fondo">
       <div class="col s6 m4 l2 offset-l1">
         <img class="responsive-img logo z-depth-4" src="img/turista.jpg" alt="logo">
       </div>
@@ -18,10 +19,10 @@
         <nav class="transparent z-depth-0">
           <div class="nav-wrapper">
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a class="waves-effect waves-light btn-small indigo darken-4"><i class="tiny material-icons left">home</i>Inicio</a></li>
-              <li><a class="waves-effect waves-light btn-small indigo darken-4"><i class="tiny material-icons left">location_on</i>Estuve en..</a></li>
-              <li><a class="waves-effect waves-light btn-small indigo darken-4"><i class="tiny material-icons left">stars</i>Mejores viajes</a></li>
-              <li><a class="waves-effect waves-light btn-small indigo darken-4"><i class="tiny material-icons left">comment</i>Recomendaciones</a></li>
+              <li><a class="waves-effect waves-light hoverable btn-small indigo darken-4"><i class="tiny material-icons left">home</i>Inicio</a></li>
+              <li><a class="waves-effect waves-light hoverable btn-small indigo darken-4"><i class="tiny material-icons left">location_on</i>Estuve en..</a></li>
+              <li><a class="waves-effect waves-light hoverable btn-small indigo darken-4"><i class="tiny material-icons left">stars</i>Mejores viajes</a></li>
+              <li><a class="waves-effect waves-light hoverable btn-small indigo darken-4"><i class="tiny material-icons left">comment</i>Recomendaciones</a></li>
             </ul>
             <ul id="nav-mobile" class="right show-on-med-and-down hide-on-large-only">
               <li><a class="waves-effect waves-light btn-small indigo darken-4"><i class="tiny material-icons left">home</i></a></li>
@@ -36,7 +37,8 @@
         </div>
     </div>
   </div>
-      <div class="row">
+  <!-- NOTE: Secciòn de navegador lateral, con iconos de redes sociales -->
+      <div class="row img-fondo">
         <div class="col m2 l2 hide-on-med-and-down">
           <div class="col s12">
             <img class="responsive-img" src="img/facebook-logo-button.png" alt="redes">
@@ -55,24 +57,98 @@
           </div>
         </div>
         <div class="col s12 m10 l10">
+          <!-- NOTE: Secciòn de publicaciones de imagenes destinos turisticos -->
           <div class="row">
             <div class="col s12 m12 l4 img-cont">
-                <img class="responsive-img" src="img/egipto.jpg" alt="imagen1">
-                <img class="responsive-img" src="img/islandia.jpg" alt="imagen2">
+                <img class="responsive-img hoverable" src="img/egipto.jpg" alt="imagen1">
+                <img class="responsive-img hoverable" src="img/islandia.jpg" alt="imagen2">
             </div>
             <div class="col s12 m12 l4 img-cont">
-                <img class="responsive-img" src="img/china.jpg" alt="imagen3">
+                <img class="responsive-img hoverable" src="img/china.jpg" alt="imagen3">
             </div>
             <div class="col s12 m12 l4 img-cont">
-                <img class="responsive-img" src="img/paris.jpg" alt="imagen4">
-                <img class="responsive-img" src="img/sydney.jpg" alt="imagen5">
+                <img class="responsive-img hoverable" src="img/paris.jpg" alt="imagen4">
+                <img class="responsive-img hoverable" src="img/sydney.jpg" alt="imagen5">
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col s12 m8 l8">asd</div>
-        <div class="col s12 m4 l4">asd</div>
+      <!-- NOTE: Sección de publicaciones -->
+      <div class="row img-fondo">
+        <!-- NOTE: Primer Card -->
+        <div class="col s12 m8 l8">
+          <div class="card-panel hoverable z-depth-2">
+            <div class="row">
+              <div class=" col s6 m4 l4 left">
+                <img class="responsive-img" src="img/acuario.jpg" alt="articulo">
+              </div>
+              <div class="col s6 m8 l8">
+                <span class="card-title">Acuario de Dubai</span>
+              </div>
+                <div class="chip">
+                  <i class="material-icons right">today</i>
+                  18 de Marzo de 2018
+                </div>
+                <div class="chip">
+                  <i class="material-icons right">location_on</i>
+                  Dubái, Emiratos Árabes Unidos
+                </div>
+                <p class="flow-text">Sin duda alguna una de las mas grandes atracciones de todo Dubai (excepto por toda la grandiosa ciudad claro esta).<br>
+                Imagine estar en un acuario completamente sumergido debajo del mar, en donde se puede apreciar toda la variedad de fauna marina y especies exóticas. Toparse frente a frente con un tiburón o con inmensos cardúmenes de peces y sin necesidad de sacar tu equipo de buceo. Todo esto es lo que puedes disfrutar en este maravilloso lugar, un sitio tan fantástico, excitante y relajante a la vez. Es casi como entrar a otra dimensión.</p>
+
+            </div>
+          </div>
+<!-- NOTE: Seccion de comentarios -->
+          <div class="card-panel blue darken-3 z-depth-2">
+            <div class="row">
+              <div class="card-title">
+                <p class="flow-text white-text">Deja tu comentario:</p>
+              </div>
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12 m6 l6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Nombre</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6">
+                    <i class="material-icons prefix">email</i>
+                    <input id="icon_email" type="email" class="validate">
+                    <label for="icon_email" data-error="incorrecto" data-success="correcto">Correo Electrónico</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">insert_comment</i>
+                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                    <label for="icon_prefix2">Comentario</label>
+                  </div>
+                  <button class="btn waves-effect waves-light right indigo darken-4" type="submit" name="action">Enviar
+                    <i class="material-icons right">send</i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- NOTE: Perfil del autor -->
+        <div class="col s12 m4 l4">
+          <div class="card-panel z-depth-2">
+            <div class="row">
+              <div class="col s12 center-align">
+                <img class="circle retrato" src="img/retrato.jpg" alt="autor">
+                <h4 class="center-align">Perfil del autor</h4>
+                <div class="divider"></div>
+                <div class="section">
+                  <p>Jose Pablo Muñoz Carvajal. Técnico en Electrónica y Desarrollo Web.<br>Creador de este sitio web utilizando herramnientas de HTML5, CSS3 y Materialize. Algunas investigaciones acerca de los sitios turisticos fueron realizados en otras páginas para referencia.<br>Jose es una persona a la que le gusta viajar, conocer nuevos sitios y nuevas personas. Amante de la naturaleza y de la fotografía; sus paisajes favoritos son sin lugar a dudas en terrenos montañosos y fríos, donde se puede se puede respirar un aire puro y fresco. </p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
       </div>
 
 
